@@ -1,0 +1,73 @@
+body {
+	background-color:#f1f1f1;
+	font-size:1em;
+	font-family: 'Varela Round', sans-serif;
+	background-size:1500px;
+	color:red;
+}
+
+h1 {
+	text-align:center;
+}
+
+ul { 
+	padding:0px;
+}
+
+ul li { 
+	display:inline;
+	list-style-type:none;
+	margin:5px;
+	padding:0;
+}
+
+a {
+	color:black;
+	text-decoration:none;
+}
+
+a:hover {
+	color:gray;
+}
+
+.nav { 
+	display:block;
+	width:70%;
+	max-width:70%;
+	margin:5px auto;
+	display: flex; 
+  	justify-content: space-around;
+  	color:black;
+}
+
+.error {
+	font-size:.8em;
+	color:red;
+}
+
+.tab {
+	padding:10px;
+	border-radius:8px;
+	background-color:red;
+	cursor:pointer;
+}
+
+.tab:hover{ 
+	background-color:white;
+	color:blue;
+}
+
+.tabSelected {
+	background-color:white;
+	color:blue;
+}
+
+.contentsContainer {
+	margin:auto;
+	width:500px;
+	height:100%;
+}
+
+.contentsContainer > div { 
+	display:none;
+}

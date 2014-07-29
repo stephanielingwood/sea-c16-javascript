@@ -8,7 +8,7 @@ function oldestAge(data){
 
 function alive(data) {
   var filtData = _.filter(data, function(nam){
-    return nam.age != undefined;
+    return nam.age !== undefined;
   })
    return _.pluck(filtData, 'name');
 };
@@ -16,3 +16,5 @@ function alive(data) {
 function oldName(data){
   return oldestAge(data).name;
 };
+
+

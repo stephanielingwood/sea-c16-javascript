@@ -4,10 +4,9 @@ var Person = function (name, parent, age, parentAge) {
   this.age = age;
   this.parentAge = parentAge;
   this.isDead = function () {
-    if (!(!this.age || this.age > 150 || this.age >= this.parentAge)) {
-      return true;
-    } else {
-      return false;
-    }
+    !(!this.age || this.age > 150 || this.age >= this.parentAge) ? true: false 
   };
 };
+
+
+

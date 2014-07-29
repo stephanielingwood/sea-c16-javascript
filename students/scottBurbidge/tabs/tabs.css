@@ -1,0 +1,110 @@
+body{
+background-color: #13242B;
+background-image:
+repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+background-size: 70px 120px
+}
+.info{
+width: inherit;
+height: 600px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.paneGone{
+  display: none;
+}
+
+h2{
+  text-align: center;
+  top: -50px;
+  color: #C0C0C1;
+}
+
+.container{
+width: 700px;
+height: 800px;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+}
+
+.tab{
+  color: #13242B;
+  width: 23.5%;
+  height: 20px;
+  position: relative;
+  display: inline-block;
+  border: 2px ridge;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #B4B6B6
+}
+
+.tabBar{
+  height: 20px
+}
+
+.tab:hover{
+  background-color: #13242B;
+  color: #B4B6B6;
+  cursor: pointer;
+  }
+
+.paneSelect{
+  position: absolute;
+  width: inherit;
+  height: 550px;
+  background-color: #282A2B;
+  border-radius: 8px;
+  border: 4px #B4B6B6 solid;
+  vertical-align: super
+}
+
+.nav{
+  margin: 10px;
+  padding-left: 0px;
+  position:relative;
+  list-style-type: none;
+}
+
+.image{
+  display: block;
+  position: relative;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  border: 6px #A8ABAD double;
+  }
+  
+  .noImage{
+  display: none;
+  position: relative;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto
+  }
+
+.content{
+  margin-top: 18px;
+  color: #C0C0C1;
+  text-align: center;
+  height: inherit;
+  position: relative;
+}
+
+.txt{
+  position: relative;
+  top: 30%;
+}
+
+
+
+
+

@@ -4,14 +4,17 @@ function stringDelimiter(strIn, charIn) {
 
   for(var i = 0; i < strIn.length; i++ ){
     if(strIn[i] == charIn) {
-      if(strTemp == ""){
+      if(strTemp == "") {
        continue; 
       } else {
         resultArray.push(strTemp);
         strTemp = "";   
       }
+    } else if(i == (strIn.length-1)) {
+        strTemp += strIn[i];
+        resultArray.push(strTemp);
     } else {
-      strTemp += strIn[i];
+        strTemp += strIn[i];
     }
   }
   return resultArray;
